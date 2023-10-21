@@ -1,6 +1,6 @@
 import React from 'react'
-import Bride from '../assets/images/bride.jpg'
-import Groom from '../assets/images/groom.jpg'
+import Bride from '../assets/images/bride.png'
+import Groom from '../assets/images/groom1.jpg'
 function Bridegroom() {
 	return (
 		<div id='couple' className='bridegroom clear section-padding bg-pink'>
@@ -18,7 +18,7 @@ function Bridegroom() {
 										Rhoie Jhannarie Omlero <i className='ti-heart'></i>
 									</h6>{' '}
 									<span>The Bride</span>
-									<p>Rhoie fringilla dui at elit finibus viverra nec a lacus seda themo the miss druane semper sollicitudin non the fermen.</p>
+									<p>Rhoie is an extroverted person that loves to adopt lonely and sad introverts</p>
 									<div className='social'>
 										<div className='full-width'>
 											<a href='#0' className='icon'>
@@ -51,7 +51,7 @@ function Bridegroom() {
 										Frank Mendez <i className='ti-heart'></i>
 									</h6>{' '}
 									<span>The Groom</span>
-									<p>Frank fringilla dui at elit finibus viverra nec a lacus seda themo the miss druane semper sollicitudin non the fermen.</p>
+									<p>Frank is an introverted person that likes to think always of his next meal.</p>
 									<div className='social'>
 										<div className='full-width'>
 											<a href='#0' className='icon'>
