@@ -5,9 +5,11 @@ function RSVP() {
 	const [name, setName] = useState('')
 	const [message, setMessage] = useState('')
 	const [sent, setSent] = useState(false)
+	const [loading, setLoading] = useState(false)
 
 	const handleSubmit = async (e) => {
 		e.preventDefault()
+		setLoading(true)
 		axios({
 			method: 'post',
 			url: 'https://v1.nocodeapi.com/frankmendez/google_sheets/HHIVFSebGpfXymOQ',
@@ -18,6 +20,7 @@ function RSVP() {
 				// handle success
 				console.log('response.data', response.data)
 				setSent(true)
+				setLoading(false)
 			})
 			.catch(function (error) {
 				// handle error
@@ -45,37 +48,43 @@ function RSVP() {
 								</>
 							) : (
 								<>
-									<div className='col-md-12'>
-										<div className='form-group'>
-											<input
-												type='text'
-												value={name}
-												onChange={(e) => setName(e.target.value)}
-												className='form-control'
-												placeholder='Name'
-												required
-											/>{' '}
-										</div>
-									</div>
-									<div className='col-md-12'>
-										<div className='form-group'>
-											<textarea
-												value={message}
-												onChange={(e) => setMessage(e.target.value)}
-												name='message'
-												id='message'
-												cols='30'
-												rows='7'
-												className='form-control'
-												placeholder='Message'
-											></textarea>
-										</div>
-									</div>
-									<div className='col-md-12'>
-										<div className='form-group'>
-											<input type='submit' className='btn buttono' value='SEND' />{' '}
-										</div>
-									</div>
+									{loading ? (
+										<>Loading...</>
+									) : (
+										<>
+											<div className='col-md-12'>
+												<div className='form-group'>
+													<input
+														type='text'
+														value={name}
+														onChange={(e) => setName(e.target.value)}
+														className='form-control'
+														placeholder='Name'
+														required
+													/>{' '}
+												</div>
+											</div>
+											<div className='col-md-12'>
+												<div className='form-group'>
+													<textarea
+														value={message}
+														onChange={(e) => setMessage(e.target.value)}
+														name='message'
+														id='message'
+														cols='30'
+														rows='7'
+														className='form-control'
+														placeholder='Message'
+													></textarea>
+												</div>
+											</div>
+											<div className='col-md-12'>
+												<div className='form-group'>
+													<input type='submit' className='btn buttono' value='SEND' />{' '}
+												</div>
+											</div>
+										</>
+									)}
 								</>
 							)}
 						</form>
