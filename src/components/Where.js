@@ -51,7 +51,7 @@ function Where() {
 							<img src={where3} alt='' />
 						</div>
 						<div className='content'>
-							<h5>Accomodations</h5>
+							<h5>Hotel and Accommodation Recommendations</h5>
 							<p>
 								<i className='ti-direction-alt'></i> Hotel and distance from wedding party restaurant:
 							</p>

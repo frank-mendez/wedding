@@ -18,7 +18,7 @@ function Bridegroom() {
 										Rhoie Jhannarie Omlero <i className='ti-heart'></i>
 									</h6>{' '}
 									<span>The Bride</span>
-									<p>Rhoie is an extroverted person that loves to adopt lonely and sad introverts</p>
+									<p>Rhoie is an extroverted person who loves to adopt lonely and sad introverts</p>
 									<div className='social'>
 										<div className='full-width'>
 											<a href='#0' className='icon'>
@@ -51,7 +51,7 @@ function Bridegroom() {
 										Frank Mendez <i className='ti-heart'></i>
 									</h6>{' '}
 									<span>The Groom</span>
-									<p>Frank is an introverted person that likes to think always of his next meal.</p>
+									<p>Frank is THE introvert</p>
 									<div className='social'>
 										<div className='full-width'>
 											<a href='#0' className='icon'>
@@ -75,7 +75,7 @@ function Bridegroom() {
 				</div>
 				<div className='row'>
 					<div className='col-md-12 text-center animate-box' data-animate-effect='fadeInUp'>
-						<h3 className='oliven-couple-title'>Are getting married!</h3>
+						<h3 className='oliven-couple-title'>We are getting married!</h3>
 						<h4 className='oliven-couple-subtitle'>December 8, 2023 — Cebu City, Philippines</h4>
 					</div>
 				</div>

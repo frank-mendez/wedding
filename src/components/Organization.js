@@ -29,7 +29,7 @@ function Organization() {
 					<div className='col-md-3 item-box'>
 						<h2 className='custom-font numb'>04</h2>
 						<h6 className='title'>After Party</h6>
-						<p>After party venue will be announced during the reception. DJ and drinks will be provided once the program proper has ended</p>
+						<p>The after party venue will begin once the program proper of the reception has ended. A DJ, and drinks is part of this celebration</p>
 					</div>
 				</div>
 			</div>
