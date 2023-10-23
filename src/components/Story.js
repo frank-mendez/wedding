@@ -17,19 +17,31 @@ function Story() {
 					<div className='col-md-7 animate-box'>
 						<h4 className='oliven-story-subtitle'>Our love.</h4>
 						<h3 className='oliven-story-title'>Our Story</h3>
+						<p>Saan aabot ang 200 pesos mo?</p>
+						<p>It was Ash Wednesday 2014 at St. Michael's Cathedral.</p>
 						<p>
-							In the last months of Frank's 6 years tenure in the university he saw an active 3rd year pyschology student named Rhoie. He tried to
-							invite her to church but she was not interested. But God made other plans and they met at the church unplanned. They decided to have
-							dinner that night. They talked about their lives and their dreams. They talked about their families and their friends. They talked about
-							their faith and their fears.
+							A memorable day for Frank and Rhoie, their first incidental date after Frank’s several attempts to ask her out. But God made other plans
+							and they met at the church unplanned on an afternoon mass. Frank grabbed the opportunity to invite Rhoie once again to dine out. At
+							first, Rhoie did not see Frank romantically and had prejudices towards him. But everything changed when Frank sincerely expressed his
+							worries:
 						</p>
-						<p>As they became professionals, their goals and aspirations are always aligned to each other. To always put God and family first.</p>
+						<p>“Ganahan kayko magkig dinner nimo pero 200 ra ako kwarta.”</p>
 						<p>
-							Through the years of up and downs, they always find a way to make things work. They always find a way to make each other happy. They
-							always find a way to make each other feel loved. They realized that their relationship is protected by God's grace and love.
+							Those 200 pesos changed the whole narrative. Rhoie saw a more human and humble person than she assumed. With such honesty, Rhoie was
+							able to open herself to a love that lasted this long, and this strong with the grace of the Lord. Funny as it may sound, God literally
+							set them up to meet.
 						</p>
-						<h4>Finally Frank proposed on July 9th, 2022 and Rhoie Said Yes!</h4>
-						<p>If it is made by God then it is bound for God</p>
+						<p>
+							Fast forward into the future, Frank and Rhoie's relationship bloomed. They got to know each other better, supported each other's
+							ambitions, and flourished as professionals. They put God in the center of their relationship, and as they got closer to God, they got
+							even closer to each other.
+						</p>
+						<p>
+							Years of ups and downs passed. On July 9, 2022, Frank got down on one knee and asked for Rhoie's hand in marriage. Rhoie said, "Yes,"
+							and now, they are moving forward to a new chapter of their love story.
+						</p>
+						<h4>It was the most valuable 200 pesos for them.</h4>
+						<p>God, as their matchmaker, is able to multiply that 200 pesos into a lifetime of love.</p>
 					</div>
 				</div>
 			</div>
